@@ -1,0 +1,158 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #F5F5DC;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+  color:#F5F5DC;
+}
+#about {
+  background: #f5f5dc;
+  color: black;
+  padding: 5px 0;
+  text-align: left;
+} 
+#about.container {
+  width: 90%;
+  max-width:1200px
+  margin: 0 auto;
+}
+
+#about h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+#skills {
+  background: #f5f5dc;
+  color: black;
+  padding: 5px 0;
+  text-align: left;
+} 
+#skills.container {
+  width: 90%;
+  max-width:1200px
+  margin: 0 auto;
+}
+
+#skills h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#skills p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+#education {
+  background: #f5f5dc;
+  color: black;
+  padding: 5px 0;
+  text-align: left;
+} 
+#education.container {
+  width: 90%;
+  max-width:1200px
+  margin: 0 auto;
+}
+
+#education h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#education p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+section {
+  padding: 15px 0;
+}
+#contact {
+    background-color: #f5f5dc; 
+    padding: 5px 0; 
+    text-align: left; 
+}
+
+
+#contact .container {
+	width:90%
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+
+#contact h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+#contact p {
+    font-size: 22px; 
+    margib-bottom:30px
+}
+
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+#contact a:hover {
+    text-decoration: underline; 
+    color: #000;
+}
+
+#contact i {
+    margin-right: 5px; 
+    color: #333; 
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
